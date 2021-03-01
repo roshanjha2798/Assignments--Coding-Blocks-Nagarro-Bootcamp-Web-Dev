@@ -1,0 +1,71 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 900;
+  font-size: 1.5rem;
+  letter-spacing: 0.4rem;
+  background-color: #264653;
+  color: blue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 30px;
+  z-index: 1;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+
+  margin: 8.5rem auto;
+}
+
+.container .phonebook_contents p {
+  position: sticky;
+  top: 0rem;
+  /* margin-top: 0rem; */
+  border: 1px solid black;
+  font-size: 2.5rem;
+  background-color: lightgreen;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+.container .phonebook_contents ul {
+  font-size: 2rem;
+  list-style: none;
+  margin-top: 6.6rem;
+}
+
+.container .phonebook_contents ul .divider {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  justify-content: space-around;
+  width: 92%;
+  height: 5rem;
+
+  /* border-radius: 50%; */
+  text-align: center;
+  padding-top: 2rem auto;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .phonebook_contents ul .divider .name {
+  height: 5rem;
+  width: 5rem;
+  background-color: lightgreen;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
