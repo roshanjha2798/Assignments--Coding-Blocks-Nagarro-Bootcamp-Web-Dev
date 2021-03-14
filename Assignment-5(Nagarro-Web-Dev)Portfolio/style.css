@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.527),
+      rgba(0, 0, 0, 0.541),
+      rgba(0, 0, 0, 0.452)
+    ),
+    url(https://bestwallpapers.in/wp-content/uploads/2018/05/blue-planets-collision-stars-space-purple-4k-wallpaper-1024x576.jpg);
+  background-position: center;
+  min-height: 100vh;
+  background-size: cover;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-attachment: fixed;
+}
+
+hr {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+hr:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
+
+.aboutme {
+  background-color: #fff;
+  margin-top: 9rem;
+  min-height: 20vh;
+}
+.aboutme1 {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+}
+
+.aboutme1 .roshanphoto {
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  display: block;
+}
+#name {
+  padding: 3rem;
+  font-size: 3rem;
+  margin-top: 9rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+#aboutmepara {
+  margin-bottom: 7rem;
+  width: 42rem;
+}
+
+.row .card1 {
+  border: 1px solid white;
+  transition: all 0.5s;
+}
+
+.row .card {
+  border: 1px solid white;
+}
+
+.row .card1:hover {
+  transform: translateY(-0.2rem);
+}
+
+.row .icon {
+  background-color: blue;
+  color: white;
+  height: 10rem;
+  width: 10rem;
+  padding-top: 2.5rem;
+  margin-left: 4rem;
+  font-size: 4rem;
+  border-radius: 50%;
+}
+
+.container-fluid .project {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
+.footer footer {
+  background-color: #222;
+}
+
+.footer footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 1.5rem;
+}
+
+.footer footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer footer ul li ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer footer ul li ul li a {
+  font-size: 1.2rem;
+  margin-left: -4rem;
+}
+
+.footer footer p {
+  color: white;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
