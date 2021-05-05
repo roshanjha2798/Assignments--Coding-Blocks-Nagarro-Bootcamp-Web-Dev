@@ -1,0 +1,26 @@
+<%-include('../partials/header')%>
+<%-include("../partials/navbar")%>
+
+<div class="container mt-5">
+<form class="validated-form" method="POST" action="/blogs/<%=blog._id%>?_method=PATCH" novalidate>
+    <div class="mb-3">
+      <label for="name" class="form-label">Edit Blog Title:</label>
+      <input type="text" class="form-control" id="name" name="name" value="<%=blog.name%>" required>
+    </div>
+    <div class="mb-3">
+        <label for="image" class="form-label"> Edit Image URL:</label>
+        <input type="text" class="form-control" id="image" name="image" value="<%=blog.image%>" required>
+      </div>
+      <div class="mb-3">
+        <label for="desc" class="form-label">Edit Description:</label>
+        <input type="text" class="form-control" id="desc" name="desc" value="<%=blog.desc%>" required>
+        </div>
+    <button type="submit" class="btn btn-success mt-3">Save</button>
+  </form>
+</div>
+
+
+
+
+
+<%- include("../partials/footer")%>

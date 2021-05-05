@@ -1,0 +1,110 @@
+.container .card {
+  background-color: rgba(128, 128, 128, 0.137);
+  margin: 50px auto;
+}
+
+.container .card:hover {
+  box-shadow: -2px -2px 3px grey;
+}
+
+.container .card .card-body {
+  text-align: left;
+}
+
+.container .row .img {
+  height: 20rem;
+  width: 22rem;
+}
+
+#showp::first-letter {
+  color: #222;
+  font-size: 250%;
+  font-weight: 600;
+}
+
+#readmore {
+  text-decoration: none;
+}
+#readmore:hover {
+  color: #fff;
+}
+.container .jumbotron {
+  background-color: rgba(128, 128, 128, 0.287);
+  padding: 30px;
+}
+
+.footer {
+  background-color: #222;
+  height: 11rem;
+  color: #fff;
+}
+
+.footer .footerpassage {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 6rem;
+}
+
+/* .navbar {
+  height: 4rem;
+} */
+
+@media only screen and (max-width: 1200px) {
+  .container .card {
+    width: 50rem;
+    margin: 50px auto;
+  }
+  .container .card .img {
+    width: 15rem;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .container .card {
+    width: 40rem;
+    margin: 50px auto;
+  }
+  .container .card .img {
+    width: 13rem;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .container .card {
+    width: 30rem;
+    margin: 50px auto;
+    height: 32rem;
+  }
+  .container .card .img {
+    width: 30rem;
+    height: 10rem;
+  }
+
+  #review {
+    height: 3rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container .card {
+    width: 20rem;
+    margin: 50px auto;
+    height: 35rem;
+  }
+  .container .card .img {
+    width: 20rem;
+    height: 10rem;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .container .card {
+    width: 15rem;
+    margin: 50px auto;
+    height: 42rem;
+  }
+  .container .card .img {
+    width: 15rem;
+    height: 10rem;
+  }
+}

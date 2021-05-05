@@ -1,0 +1,28 @@
+<%-include("../partials/header")%>
+<%-include("../partials/navbar")%>
+
+<div class="container mt-5">
+<form class="validated-form" method="POST" action="/blogs" novalidate>
+    <div class="mb-3">
+      <label for="name" class="form-label">Blog Title:</label>
+      <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="mb-3">
+      <label for="username" class="form-label">Written By:</label>
+      <input type="text" class="form-control" id="username" name="username" required>
+    </div>
+    <div class="mb-3">
+        <label for="image" class="form-label">Image URL:</label>
+        <input type="text" class="form-control" id="image" name="image"required>
+      </div>
+      <div class="mb-3">
+        <label for="desc" class="form-label">Description:</label>
+        <input type="text" class="form-control" id="desc" name="desc" required>
+        </div>
+    <button type="submit" class="btn btn-success mt-3">Submit</button>
+  </form>
+</div>
+
+
+
+<%- include("../partials/footer")%>
